@@ -1,0 +1,91 @@
+body {
+    background-color: azure;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px 0px 30px;
+    
+}
+
+span {
+    color: rebeccapurple;
+}
+
+.main {
+    flex: 1;
+}
+
+footer {
+    text-align: right;
+    color: midnightblue; 
+    font-size: 1.2rem; 
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    height: 100px;
+}
+
+h2, p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.card {
+    width:45%;
+    margin-bottom: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+@media (max-width: 680px) {
+
+    .card {
+        width: 100%;
+        display: block;
+    }
+    .tile-image {
+        width: 80%;
+        display: inline-block;
+    }
+    h2 {
+        clear: both;
+    }
+
+  }
+
+  @media (max-width: 490px) {
+    h1 {
+        clear: both;
+        display: inline-block;
+    }
+    .logo {
+        display: inline;
+    }
+    .tile-image {
+        margin-top: 10px;
+    }
+  }
