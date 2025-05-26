@@ -27,21 +27,6 @@ A **responsive, multi‐section landing page** for a web-design agency, themed a
 
 ---
 
-## 📂 Project Structure
-
-├── index.html        — single‐page layout with four seasonal sections  
-├── style.css         — global and per-season style rules  
-assets/       
-└── images/        — placeholder graphics (optional for future enhancement)
-
----
-
-## 🎯 Goal & Inspiration
-
-Reinforce core front-end skills by designing a visually cohesive agency site that changes “mood” with each season. Inspired by modern landing-page trends and seasonal color palettes, all code is handcrafted to explore pure-CSS techniques.
-
----
-
 Thanks for checking out the project! 😄  
 
 
